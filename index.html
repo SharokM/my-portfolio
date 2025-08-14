@@ -109,7 +109,11 @@
           <h2>Projects that might interest you</h2>
           <div class="project-list">
             <h3>Quotivation App<br />August 2025</h3>
+            <a
+            href="https://quotivation-app.netlify.app/"
+            target="_blank">
             <img src="img/quotivation.png" alt="Quote from Quotivation App" />
+            </a>
             <p>
               A react application that allows the user to filter, save and
               search through a variety of your favorite quotes.
@@ -117,18 +121,25 @@
           </div>
           <div class="project-list">
             <h3>Sticky Notes App<br />July 2025</h3>
+            <a
+            href="https://codesandbox.io/p/sandbox/react-sticky-notes-mnyyk8?file=%2Fsrc%2FApp.js"
+            target="_blank">
             <img
               src="img/super-sticky-notes.png"
-              alt="Sticky Notes Display Page"
-            />
-            <p>
+              alt="Sticky Notes Display Page"/>
+            </a>
+              <p>
               An interactive app to create, save, filter and keep track of notes
               using JSX and ES6.
             </p>
           </div>
           <div class="project">
             <h3>Nametag Generator App<br />June 2025</h3>
+            <a
+            href="https://codesandbox.io/p/sandbox/nametag-generator-ttfvjc"
+            target="_blank">
             <img src="img/name-tag.png" alt="Blank Name Tag" />
+          </a>
             <p>
               Using functional components to create bulk name tags quickly and
               easily.
@@ -136,7 +147,11 @@
           </div>
           <div class="project">
             <h3>Github Repo Gallery<br />June 2025</h3>
+            <a
+            href="https://sharokm.github.io/github-repo-gallery/"
+            target="_blank">
             <img src="img/github-repo.png" alt="GitHub Repo Gallery" />
+          </a>
             <p>
               API, JS, DOM all used to display the data pulled from github. The
               result is a clear gallery that can be viewed and interacted with.
@@ -144,7 +159,12 @@
           </div>
           <div class="project">
             <h3>Hotel Booking App<br />April 2025</h3>
+            <a
+            href="https://codesandbox.io/p/sandbox/stateful-hotel-filters-fywfd9
+            "
+            target="_blank">
             <img src="img/hotel-booking-app.png" alt="Hotel Booking App" />
+          </a>
             <p>
               Hotel search app with filters and search modes using ES6, JSX,
               Data Flow, DOM.
@@ -226,52 +246,68 @@
     <!-- BEGIN FOOTER SECTION  -->
     <footer id="contact">
       <div class="content-wrapper">
-        <div class="contact-image">
-          <p>CONTACT SECTION</p>
-          <img
-            id="contact-img"
-            src="img/jess-bailey-q10VITrVYUM-unsplash.png"
-            alt="work desk with a keyboard, pen, glasses, and notebook"
-          />
+        <div class="container">
+          <h2>Like What You See? Get In Touch!</h2>
+          <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="UK">United Kingdom</option>
+              <option value="EU">European Union</option>
+              <option value="EMEA">Europe, Middle East, Africa</option>
+              <option value="APAC">Asia Pacific</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write your message.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
         </div>
         <div class="contact-info">
-          <h2>Like What You See?</h2>
-          <div id="email-header">
-            <h3>Let's meet for a cup of coffee.</h3>
-          </div>
-          <a href="mailto:hi@jubileeausten.com"
-            ><img
-              id="envelope"
-              src="img/envelope.png"
-              alt="envelope icon"
-            />hi@JubileeAusten.com</a
-          >
-          <h3>Or, follow me on social media:</h3>
+          <div id="email-header"></div>
+
+          <h3>OR, Get Intouch Via Email Or Social Media:</h3>
           <ul id="ul-img">
             <li class="ul-img">
-              <a href="https://twitter.com/home" target="_blank"
-                ><img src="img/twitter.png" alt="Twitter icon"
-              /></a>
-            </li>
-            <li class="ul-img">
-              <a href="https://www.facebook.com" target="_blank"
-                ><img src="img/facebook.png" alt="Facebook icon"
-              /></a>
-            </li>
-            <li class="ul-img">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img src="img/instagram.png" alt="Instagram icon"
-              /></a>
-            </li>
-            <li class="ul-img">
-              <a href="https://www.linkedin.com" target="_blank"
+              <a
+                href="https://www.linkedin.com/in/sharok-mcdonnaugh-ba9566173/"
+                target="_blank"
                 ><img src="img/linkedin.png" alt="LinkedIn icon"
               /></a>
             </li>
             <li class="ul-img">
-              <a href="https://github.com" target="_blank"
+              <a href="https://github.com/SharokM" target="_blank"
                 ><img src="img/github.png" alt="GitHub icon"
               /></a>
+            </li>
+            <li class="ul-img">
+              <a href="mailto:sharok.d.mcdonnaugh@gmail.com"
+              ><img
+                id="envelope"
+                src="img/envelope.png"
+                alt="envelope icon"
+            >
             </li>
           </ul>
         </div>
@@ -291,18 +327,13 @@
             <h4>Social</h4>
             <div class="social-icons">
               <p>
-                <a href="https://www.facebook.com"
-                  ><i class="fab fa-facebook-f"></i
+                <a href="https://www.linkedin.com/in/sharok-mcdonnaugh-ba9566173/"
+                  ><i class="fab fa-linkedin-f"></i
                 ></a>
               </p>
               <p>
-                <a href="https://www.twitter.com"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </p>
-              <p>
-                <a href="https://www.instagram.com"
-                  ><i class="fab fa-instagram"></i
+                <a href="https://github.com/SharokM"
+                  ><i class="fab fa-github"></i
                 ></a>
               </p>
             </div>
