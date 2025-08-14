@@ -87,6 +87,391 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* GENERAL STYLES */
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  /* margin: 0;
+    padding: 0; */
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+/* h1 {
+    font-size: 2.25rem;
+    line-height: 43px;
+    font-weight: 500;
+  } */
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+  /* width: ; */
+}
+
+/* END GENERAL STYLES  */
+
+/* HEADER STYLES  */
+header {
+  background: #202322;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+header .content-wrapper {
+  margin: 0;
+  /* width: 100%; */
+  /* display: flex;   THIS */
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+header figure {
+  margin: 0;
+}
+
+header .header-divider {
+  background: #3a3a3a;
+  width: 100%;
+  height: 1px;
+  /* margin: 10px 0 50px 0; THIS */
+}
+
+header nav {
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 70%;
+  gap: 25px;
+  margin-left: 5%;
+}
+
+header nav ul li {
+  font-size: 1.126em;
+}
+
+header nav ul li a {
+  color: #e2e3e2;
+}
+
+header .img {
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+footer.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 40px; */
+  width: 30%;
+  color: darkgreen;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+/* END HEADER STYLES */
+
+/* MAIN STYLES  */
+
+.hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* ASIDE  */
+
+aside {
+  background: #527158;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+/* aside .form {
+  display: flex; 
+  flex-flow: wrap;
+  margin-top: 10px;
+  width: 65%;
+} */
+
+.form-description .sub-form {
+  /* width: 64%; */
+  display: flex;
+  flex-flow: column;
+}
+
+main .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 18px;
+  width: 90%;
+  align-items: baseline;
+}
+
+.contact-section .content-wrapper {
+  justify-content: left;
+}
+
+/* FEATURES  */
+
+.features {
+  background: url("../img/unplugged-retreat-features.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.features-item-descr {
+  text-align: center;
+}
+
+.features article {
+  width: 55%;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.features p {
+  text-align: center;
+  margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+  color: darkgreen;
+}
+
+.reviews {
+  background: #2a423a;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 25px 0;
+}
+
+footer {
+  background: #202322;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .content-wrapper {
+  width: 100%;
+  margin: 50px 0;
+}
+
+/* footer .contact-section {
+  margin-bottom: 50px;
+} */
+
+footer .social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .copyright {
+  text-align: center;
+}
+/* ABOUT PAGE  */
+
+.mission {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  background-color: #2a423a;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.contact-content p {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.copyright p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* END ABOUT PAGE  */
+/* END ABOUT PAGE  */
+
+/* FAQ PAGE  */
+
+.faq {
+  background: #527158;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.faq h2 {
+  margin: 40px 0;
+  line-height: 40px;
+}
+
+faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  margin: 50px 0 0 0;
+  width: 100%;
+}
+
+.faq-content {
+  margin: 50px;
+}
+
+.faq-content h4 {
+  line-height: 39px;
+}
+
+/* END MAIN STYLES  */
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -175,16 +560,394 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* TABLET STYLES SECTION  */
+
+@media screen and (min-width: 768px) {
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  /* h1 {
+    font-size: 3em;
+    line-height: 48px;
+  } */
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
+  .header {
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    /* margin: 0;
+    display: flex; */
+    justify-content: space-between;
+    /* flex: 2;
+    margin-right: 5%;
+    flex-basis: 1; */
+    width: 100%;
+  }
+
+  header figure {
+    width: 90%;
+  }
+
+  header nav {
+    width: 100%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    width: 90%;
+    /* list-style: none; */
+    /* margin: 20px; */
+  }
+
+  .header-divider {
+    /* display: none; */
+  }
+
+  /* HERO AREA  */
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
+
+  /* ASIDE  */
+
+  aside .content-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-content: flex-start;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 34%;
+    margin: 0;
+  }
+
+  .form-description .sub-form {
+    width: 34%;
+  }
+
+  /* FEATURES  */
+
+  .features h2 {
+    margin-bottom: 20px;
+    width: 95%;
+  }
+
+  .features article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 49%;
+    flex-basis: 50%;
+  }
+
+  .form {
+    width: 40%;
+  }
+
+  .features-item {
+  }
+
+  .features .features-item-descr {
+    width: 60%;
+  }
+
+  /* REVIEWS  */
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between;
+    width: 49%; */
+  }
+
+  .reviews h2 {
+    width: 95%;
+  }
+
+  .reviews article figure,
+  .reviews article div {
+    width: 46%;
+  }
+
+  .reviews h3 {
+    width: 90%;
+  }
+
+  .reviews .content-wrapper {
+  }
+
+  .reviews-text {
+    width: 90%;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+
+  /* FOOTER   */
+
+  footer .content-wrapper {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  footer .contact (
+    margin-bottom: 0;
+  ) footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+  /* ---------  ABOUT PAGE --------- */
+
+  .mission-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  /* .contact-section .content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  } */
+
+  .contact-section .content-wrapper h2 {
+    width: 98%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 98%;
+  }
+
+  .map-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ---------  FAQ PAGE --------- */
+
+  .faq .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    flex-basis: 1;
+  }
+
+  .faq {
+    display: flex;
+    justify-content: center;
+  }
+
+  .faq-content {
+    flex-basis: 31%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 19.75px;
+  }
+}
+-->
+
+/* <!-- END TABLET MEDIA QUERY --> */
+
+
+
+/* <!-- BEGIN LAPTOP MEDIA QUERY  --> */
+
+<!-- @media screen and (min-device-width: 1200px) and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  header {
+    padding: 15px 0;
+  }
+
+  h2 {
+    font-size: 2.25;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
+  }
+
+  /* HERO  */
+  .hero-area h1 {
+    width: 80%;
+    font-size: 3.75em;
+  }
+
+  /* ASIDE  */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 23%;
+  }
+
+  .form-description p {
+    font-size: 1.125em;
+  }
+
+  /* FEATURES  */
+
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* REVIEWS  */
+
+  .reviews article div {
+    width: 42%;
+  }
+
+  .reviews h2 {
+    /* width: 42%; */
+  }
+
+  footer h4 {
+    font-size: 1.875em;
+  }
+
+  .footer-contact {
+    width: 60%;
+  }
+
+  /* -- DESKTOP ABOUT PAGE -- */
+  /* -- DESKTOP ABOUT PAGE -- */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+    font-size: 3em;
+  }
+
+  .contact-content h4 {
+    font-size: 1.875em;
+  }
+
+  .map-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* -- END DESKTOP ABOUT PAGE -- */
+
+  /* -- DESKTOP FAQ PAGE -- */
+  /* -- DESKTOP FAQ PAGE -- */
+
+  .faq h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .faq h4 {
+    font-size: 1.125em;
+    line-height: 1;
+  }
+
+  .form-description .sub-form {
+    width: 23%;
+  }
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+-->
+
+/* <!-- END LAPTOP MEDIA QUERY  --> */
 
 /* ==========================================================================
    Print styles.
@@ -260,4 +1023,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
