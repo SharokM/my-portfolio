@@ -40,6 +40,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  width: max-content;
 }
 
 /* Grouping content
@@ -174,7 +175,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +186,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 

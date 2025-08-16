@@ -57,20 +57,22 @@
 
   <body>
     <!-- HEADER/ NAV SECTION  -->
-    <header class="homepage-hero">
+    <header class="header">
       <div class="content-wrapper">
         <h1>S D McDonnaugh | Front End Developer</h1>
         <nav>
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#skills">skills</a></li>
-            <li><a href="projects/index.html">projects</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ul>
-        </nav>
+          <div class="dropdown">
+            <button id="dropdownbutton">Menu</button>
+            <div id="dropdownContext" class="dropdown-content">  
+                <a href="#">home</a>
+                <a href="#about">about</a>
+                <a href="#skills">skills</a>
+                <a href="#projects">projects</a>
+                <a href="#contact">contact</a>   
+            </div>
+          </div>
 
-        <h2>Enter more text or subheading here.</h2>
+        </nav>
       </div>
     </header>
     <!-- END HEADER/ NAV SECTION  -->
@@ -133,7 +135,7 @@
               using JSX and ES6.
             </p>
           </div>
-          <div class="project">
+          <div class="project-list">
             <h3>Nametag Generator App<br />June 2025</h3>
             <a
             href="https://codesandbox.io/p/sandbox/nametag-generator-ttfvjc"
@@ -145,7 +147,7 @@
               easily.
             </p>
           </div>
-          <div class="project">
+          <div class="project-list">
             <h3>Github Repo Gallery<br />June 2025</h3>
             <a
             href="https://sharokm.github.io/github-repo-gallery/"
@@ -157,7 +159,7 @@
               result is a clear gallery that can be viewed and interacted with.
             </p>
           </div>
-          <div class="project">
+          <div class="project-list">
             <h3>Hotel Booking App<br />April 2025</h3>
             <a
             href="https://codesandbox.io/p/sandbox/stateful-hotel-filters-fywfd9
@@ -246,7 +248,7 @@
     <!-- BEGIN FOOTER SECTION  -->
     <footer id="contact">
       <div class="content-wrapper">
-        <div class="container">
+        <div class="contact-form">
           <h2>Like What You See? Get In Touch!</h2>
           <form action="action_page.php">
             <label for="fname">First Name</label>
