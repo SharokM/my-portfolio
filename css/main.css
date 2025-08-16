@@ -191,11 +191,23 @@ header {
 }
 
 header .content-wrapper {
-  margin: 0;
+  margin: 50px 10px 5px 10px;
   width: 100%;
   display: flex;
-  flex-flow: nowrap;
+  flex-flow: row;
   align-items: baseline;
+}
+
+.header-content-wrapper {
+  /* code  */
+}
+
+.header-title {
+  /* code  */
+}
+
+.header {
+  /* code  */
 }
 
 .dropdown {
@@ -289,6 +301,10 @@ project img {
   padding: 80px 10px 30px 0;
 }
 
+.skill-content-wrapper {
+  position: relative;
+}
+
 #skills {
   /* background: url("../img/unplugged-retreat-features.jpg");
   background-size: cover;
@@ -296,6 +312,22 @@ project img {
   display: flex;
   justify-content: center;
   margin: 0; */
+}
+
+.skill-list {
+  /* code  */
+}
+
+.skill-img {
+  /* code  */
+}
+
+.skill-list-item {
+  width: min-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 skills .content-wrapper {
