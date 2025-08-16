@@ -121,6 +121,8 @@ h2 {
   font-size: 1.875em;
   font-weight: 500;
   width: max-content; */
+  /* padding: 40px 10px 10px 0px; */
+  text-align: center;
 }
 
 h3,
@@ -149,9 +151,7 @@ address {
 }
 
 .content-wrapper {
-  /* width: 90%;
-  margin: 50px 0; */
-  /* width: ; */
+  margin: 10px;
 }
 
 .dropdown button {
@@ -186,7 +186,7 @@ address {
 header {
   display: flex;
   justify-content: center;
-  padding: 10px 10px;
+  padding: 40px 10px;
   background-color: brown;
 }
 
@@ -233,25 +233,14 @@ header .content-wrapper {
 
 /* MAIN STYLES  */
 
-.hero-area {
-  /* background: url(../img/unplugged-retreat.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  display: flex;
-  justify-content: center; */
-}
-
-.hero-area h1 {
-  /* font-size: 2.25em;
-  font-weight: 500;
-  line-height: 1.2; */
-}
-
 /* ABOUT SECTION SECTION  */
 
 #about {
   /* code  */
+}
+
+.about-header {
+  padding: 40px;
 }
 
 aside .content-wrapper {
@@ -264,6 +253,10 @@ aside .content-wrapper {
 /* END ABOUT SECTION  */
 
 /* BEGIN PROJECT SECTION  */
+
+.project-header {
+  padding: 80px 10px 20px 0;
+}
 
 #projects {
   /* width: 64%; */
@@ -291,6 +284,10 @@ project img {
 /* END PROJECT SECTION  */
 
 /* BEGIN SKILLS SECTION  */
+
+.skill-header {
+  padding: 80px 10px 30px 0;
+}
 
 #skills {
   /* background: url("../img/unplugged-retreat-features.jpg");
@@ -324,6 +321,14 @@ skills .skill-list {
 /* END SKILLS SECTION  */
 
 /* BEGIN FOOTER SECTION  */
+
+.contact-header {
+  padding: 60px 20px 15px 0;
+}
+
+.socmed-subheader {
+  padding: 40px 10px 7px 0;
+}
 
 footer {
   /* background: #202322;
