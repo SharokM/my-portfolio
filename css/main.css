@@ -110,11 +110,12 @@ a {
   text-decoration: none;
 }
 
-/* h1 {
-    font-size: 2.25rem;
-    line-height: 43px;
-    font-weight: 500;
-  } */
+h1 {
+  font-weight: 500;
+  color: #e7e5cb;
+  line-height: 43px;
+  font-size: 38px;
+}
 
 h2 {
   /* font-family: "Poppins", sans-serif;
@@ -125,12 +126,12 @@ h2 {
   text-align: center;
 }
 
-h3,
+h3 {
+  padding-top: 20px;
+}
+
 h4 {
-  /* font-family: "Poppins", sans-serif;
-  font-size: 1.125em;
-  font-weight: 500;
-  margin: 20px 0; */
+  padding-top: 5px;
 }
 
 p {
@@ -187,26 +188,25 @@ header {
   display: flex;
   justify-content: center;
   padding: 40px 10px;
-  background-color: brown;
+  background-color: #152a3e;
 }
 
-header .content-wrapper {
+/* header .content-wrapper {
   margin: 50px 10px 5px 10px;
   width: 100%;
   display: flex;
   flex-flow: row;
   align-items: baseline;
-}
+} */
 
 .header-content-wrapper {
-  /* code  */
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  width: -webkit-fill-available;
 }
 
 .header-title {
-  /* code  */
-}
-
-.header {
   /* code  */
 }
 
@@ -219,7 +219,8 @@ header .content-wrapper {
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
-  background-color: red;
+  color: black;
+  background-color: #cac691;
 }
 
 .dropdown-content {
@@ -248,11 +249,12 @@ header .content-wrapper {
 /* ABOUT SECTION SECTION  */
 
 #about {
-  /* code  */
+  background-color: #cac691;
+  padding: 5px;
 }
 
 .about-header {
-  padding: 40px;
+  padding: 40px 5px 10px 0px;
 }
 
 aside .content-wrapper {
@@ -267,13 +269,12 @@ aside .content-wrapper {
 /* BEGIN PROJECT SECTION  */
 
 .project-header {
-  padding: 80px 10px 20px 0;
+  padding: 40px 5px 10px 0px;
 }
 
 #projects {
-  /* width: 64%; */
-  /* display: flex;
-  flex-flow: column; */
+  background-color: #eeefda;
+  padding: 1px;
 }
 
 projects .content-wrapper {
@@ -298,11 +299,12 @@ project img {
 /* BEGIN SKILLS SECTION  */
 
 .skill-header {
-  padding: 80px 10px 30px 0;
+  padding: 40px 10px 2px 10px;
 }
 
 .skill-content-wrapper {
-  position: relative;
+  background-color: #cac691;
+  padding: 1px;
 }
 
 #skills {
@@ -350,39 +352,55 @@ skills .skill-list {
   /* code  */
 }
 
+.skill-images {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-flow: row wrap;
+}
+
+.skill-list-item img {
+  /* code  */
+}
+
 /* END SKILLS SECTION  */
 
 /* BEGIN FOOTER SECTION  */
 
 .contact-header {
-  padding: 60px 20px 15px 0;
+  /* padding: 60px 20px 15px 0; */
 }
 
 .socmed-subheader {
   padding: 40px 10px 7px 0;
+  margin-left: 25px;
 }
 
 footer {
-  /* background: #202322;
   display: flex;
   flex-direction: column;
-  align-items: center; */
+  background-color: #f7e8e8;
 }
 
 #footer {
   /* code  */
 }
 
-footer .content-wrapper {
+.footer-content-wrapper {
   /* width: 100%;
   margin: 50px 0; */
 }
 
 footer .contact-form {
-  /* margin-bottom: 50px; */
+  /* code  */
 }
 
-footer .contact-info {
+footer .contact-header {
+  padding-top: 40px;
+}
+
+footer .form {
   /* code  */
 }
 
@@ -403,6 +421,18 @@ footer p {
 footer .copyright {
   /* text-align: center; */
 }
+
+form {
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  margin: auto;
+}
+
+.form {
+  /* code  */
+}
+
 /* ABOUT PAGE  */
 
 .mission {
@@ -427,7 +457,12 @@ footer .copyright {
 }
 
 #ul-img {
-  /* code  */
+  width: fit-content;
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  /* margin-left: 79px; */
+  margin: auto;
 }
 
 .contact {
