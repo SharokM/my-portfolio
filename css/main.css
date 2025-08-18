@@ -357,7 +357,8 @@ skills .skill-list {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
-  flex-flow: row wrap;
+  flex-flow: column;
+  align-items: center;
 }
 
 .skill-list-item img {
@@ -463,6 +464,7 @@ form {
   gap: 60px;
   /* margin-left: 79px; */
   margin: auto;
+  padding-bottom: 15px;
 }
 
 .contact {
