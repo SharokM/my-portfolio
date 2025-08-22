@@ -576,49 +576,51 @@ form {
 
   /* BEGIN PROJECT SECTION  */
 
-  .project-header {
-    /* padding: 40px 5px 10px 0px; */
-    font-size: 2.5em;
-  }
+#projects {
+  /* code  */
+}
 
-  #projects {
-    /* background-color: #eeefda;
-    padding: 1px; */
-  }
+.projects-content-wrapper {
+  /* code  */
+}
 
-  #projects img {
-    width: 100px;
-    height: 100px;
-  }
+.project-header {
+  /* code  */
+}
 
-  .project-list img {
-    width: 165px;
-    height: 140px;
-  }
+.project-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 50px;
+  width: -webkit-fill-available;
+}
 
-  .projects img {
-    /* code  */
-  }
+.project-list-item {
+width: 240px; 
+margin: 18px;
+}
 
-  projects .content-wrapper {
-    /* code  */
-  }
+projects img {
+  /* code  */
+}
 
-  .projectlist-content-wrapper {
-    display: flex;
-    flex-wrap: inherit;
-    gap: 15px;
-    line-height: normal;
-  }
+.projects h3 {
+  /* code  */
+}
 
-  .project-list {
-    width: 100%;
-  }
+projects h3 {
+  /* code  */
+}
 
-  project img {
-    /* code  */
-  }
+.project-list img {
+  height: 200px;
+  width: 250px;}
 
+.project-list p {
+width: 200px;
+}
   /* END PROJECT SECTION  */
 
   /* BEGIN SKILLS SECTION  */
@@ -941,40 +943,50 @@ form {
   
   /* BEGIN PROJECT SECTION  */
   
-  .project-header {
-    /* padding: 40px 5px 10px 0px; */
-  }
-  
   #projects {
-    /* background-color: #eeefda;
-    padding: 1px; */
-  }
-
-  #projects .content-wrapper {
-    margin: 6px;
-  }
-
-  .projectlist-content-wrapper {
     /* code  */
   }
-
-  #projects img {
-    height: 400px;
-    width: 450px;
+  
+  .projects-content-wrapper {
+    /* code  */
+  }
+  
+  .project-header {
+    /* code  */
   }
   
   .project-list {
-    margin-left: 10px;
-    /* width: 100%; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 50px;
+    width: -webkit-fill-available;
   }
-
+  
+  .project-list-item {
+  width: 380px; 
+  margin: 0;
+  }
+  
+  projects img {
+    /* code  */
+  }
+  
+  .projects h3 {
+    /* code  */
+  }
+  
+  projects h3 {
+    /* code  */
+  }
+  
+  .project-list img {
+    height: 200px;
+    width: 250px;}
+  
   .project-list p {
-    width: 450px;
-    margin-left: 6px;
-  }
-
-  .projectlist-content-wrapper {
-    display: grid;
+  width: 200px;
   }
   
   /* END DESKTOP PROJECT SECTION  */
