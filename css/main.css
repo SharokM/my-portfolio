@@ -109,7 +109,8 @@ h1 {
   font-weight: 500;
   color: #e7e5cb;
   line-height: 43px;
-  font-size: 38px;
+  /* font-size: 38px; */
+  font-size: 1.38em;
 }
 
 h2 {
@@ -241,7 +242,7 @@ body.dark {
   display: inline-block;
   width: 60px;
   height: 24px;
-  background-color: #7a1a1a;
+  background-color: #7b7f80;
   border-radius: 34px;
 }
 
@@ -302,7 +303,8 @@ body.dark {
 
 .skill-content-wrapper {
   background-color: #cac691;
-  padding: 1px;
+  /* padding: 1px; */
+  border: solid 2px white;
 }
 
 .skill-list-item {
@@ -650,8 +652,8 @@ form {
 }
 
 .project-list-item {
-width: 240px; 
-margin: 18px;
+width: 240px;
+margin: 0 18px;
 }
 
 projects img {
@@ -689,6 +691,7 @@ width: 200px;
 
   .skill-content-wrapper {
     padding-bottom: 25px;
+    border: solid 3px white;
   }
 
   .skill-list-item {
@@ -1010,9 +1013,9 @@ width: 200px;
   .project-list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: baseline;
-    gap: 50px;
+    gap: 0px;
     width: -webkit-fill-available;
   }
   
