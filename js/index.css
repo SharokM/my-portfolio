@@ -1,0 +1,70 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+.dark-palette {
+  background-color: #d8d412;
+  color: lightgreen;
+  font-weight: 100;
+}
+
+body {
+  /* margin: ;
+    padding: ; */
+}
+
+input,
+textarea {
+  /* outline: none;
+    resize: none; */
+}
+
+.header {
+  /* code  */
+}
+
+.header-content-wrapper {
+  /* code  */
+}
+
+.dropdown {
+  /* code  */
+}
+
+.switch-container {
+  /* color: ; */
+}
+
+.light-mode {
+  color: rgb(12, 57, 171);
+  background-color: wheat;
+}
+
+.dark-mode {
+  color: rgb(178, 11, 11);
+}
+
+.switch {
+  /* padding: ;
+    margin: ; */
+}
+
+toggle {
+  /* code  */
+}
+
+.footer-content-wrapper {
+  /* code  */
+}
+
+.contact-form {
+  /* code  */
+}
+
+form {
+  /* code  */
+}
+
+checkbox {
+  /* code  */
+}

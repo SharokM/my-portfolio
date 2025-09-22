@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>S D McDonnaugh | Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <script src="js/script.js" defer></script>
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <meta name="theme-color" content="#fafafa" />
+
+    <!-- Add your site or application content here -->
+    <!-- <p>My Portfolio</p>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script> -->
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script> -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <!-- FORM HEAD INFO  -->
+    <!-- <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "cUWYCAUXK6ShWD1Nw",
+        });
+      })();
+    </script> -->
+  </head>
+
+  <body>
+    <div class="content-wrapper">
+      <!-- BEGIN HEADER/ NAV SECTION  -->
+      <header class="header">
+        <div class="header-content-wrapper">
+          <h1>Sharok McDonnaugh | FrontEnd Developer</h1>
+          <nav>
+            <!-- TEST DROPDOWN  -->
+            <!-- <div class="dropdown">
+            <button id="dropdownbutton">Menu</button>
+            <ul id="dropdownContext" class="dropdown-content">
+              <li a href="#">home</a></li>
+              <li a href="#about">about</a></li>
+              <li a href="#skills">skills</a></li>
+              <li a href="#projects">projects</a></li>
+              <li a href="#contact">contact</a></li>
+            </ul>
+          </div> -->
+
+            <!-- DROP DOWN MENU  -->
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropdownbutton">
+                MENU
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+
+            <div class="switch-container">
+              <!-- <p>Dark</p> -->
+              <label class="switch">
+                <button
+                  id="toggle"
+                  class="ball dark-mode"
+                  aria-label="Toggle dark mode"
+                >
+                  <span class="icon moon">🌙</span>
+                  <span class="icon sun">☀️</span>
+
+                  <!-- <span class="visually-hidden">L/D</span> -->
+                </button>
+              </label>
+              <input name="toggle" type="checkbox" />
+              <!-- <p>Light</p> -->
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- END HEADER/ NAV SECTION  -->
+
+      <!-- BEGIN MAIN  -->
+      <main>
+        <!-- BEGIN PROJECT SECTION  -->
+
+        <section id="projects">
+          <div class="project-content-wrapper">
+            <h2 class="project-header">Portfolio/ Projects</h2>
+            <div class="project-list">
+              <div class="project-list-item">
+                <h3>Quotivation</h3>
+                <figure>
+                  <a
+                    href="https://quotivation-app.netlify.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/quotivation-proj-img.png"
+                      alt="Quote from Quotivation App"
+                    />
+                  </a>
+                </figure>
+                <p>
+                  A React application that allows the user to filter, save &
+                  search through a variety of quotes.
+                </p>
+                <p>Skills: <span>JavaScript, React, ES6, Hooks.</span></p>
+                <a
+                  href="https://quotivation-app.netlify.app/"
+                  target="_blank"
+                  class="portfolio-btn"
+                  >Live Site</a
+                >
+              </div>
+
+              <div class="project-list-item">
+                <h3>Sticky Notes</h3>
+                <figure>
+                  <a href="https://mnyyk8.csb.app/" target="_blank">
+                    <img
+                      src="img/stickynotes-proj-img.png"
+                      alt="Sticky Notes Display Page"
+                    />
+                  </a>
+                </figure>
+                <p>
+                  An interactive notetaking app - create, save, filter and keep
+                  track of all your notes.
+                </p>
+                <p>Skills: <span>JavaScript, JSX, ES6, React.</span></p>
+                <a
+                  href="https://mnyyk8.csb.app/"
+                  target="_blank"
+                  class="portfolio-btn"
+                  >Live Site</a
+                >
+              </div>
+
+              <div class="project-list-item">
+                <h3>Nametag App</h3>
+                <figure>
+                  <a href="https://ttfvjc.csb.app/" target="_blank">
+                    <img
+                      src="img/nametagapp-proj-img.png"
+                      alt="Blank Name Tag"
+                    />
+                  </a>
+                </figure>
+                <p>
+                  A nifty React nametag generator with the option to easily make
+                  and save your updates.
+                </p>
+                <p>Skills: <span>JavaScript, ES6, JSX, React.</span></p>
+                <a
+                  href="https://ttfvjc.csb.app/"
+                  target="_blank"
+                  class="portfolio-btn"
+                  >Live Site</a
+                >
+              </div>
+
+              <div class="project-list-item">
+                <h3>GitHub Repo</h3>
+                <figure>
+                  <a
+                    href="https://sharokm.github.io/github-repo-gallery/"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/githubrepo-proj-img.png"
+                      alt="GitHub Repo Gallery"
+                    />
+                  </a>
+                </figure>
+                <p>
+                  An API project utilising GitHub data to display a full project
+                  gallery for visitors.
+                </p>
+                <p>Skills: <span>JavaScript, API, DOM, GitHub.</span></p>
+                <a
+                  href="https://sharokm.github.io/github-repo-gallery/"
+                  target="_blank"
+                  class="portfolio-btn"
+                  >Live Site</a
+                >
+              </div>
+
+              <div class="project-list-item">
+                <h3>Guess the Word</h3>
+                <figure>
+                  <a
+                    href="https://sharokm.github.io/guess-the-word-game/"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/guesstheword-proj-img.png"
+                      alt="Guess the Word Game"
+                    />
+                  </a>
+                </figure>
+
+                <p>
+                  A fun game where the user can guess the word by choosing one
+                  letter at a time.
+                </p>
+                <p>Skills: <span>JavaScript, API, DOM.</span></p>
+                <a
+                  href="https://sharokm.github.io/guess-the-word-game/"
+                  target="_blank"
+                  class="portfolio-btn"
+                  >Live Site</a
+                >
+              </div>
+
+              <div class="project-list-item">
+                <h3>Unplugged</h3>
+                <figure>
+                  <a
+                    href="https://sharokm.github.io/unplugged-proj/"
+                    target="_blank"
+                  >
+                    <img src="img/unplugged-proj-img.png" alt="Unplugged App" />
+                  </a>
+                </figure>
+                <p>
+                  A 3 page responsive site advertising a relaxing company
+                  retreat.
+                </p>
+                <p>Skills: <span>JavaScript, CSS3, HTML5.</span></p>
+                <a
+                  href="https://sharokm.github.io/unplugged-proj/"
+                  target="_blank"
+                  class="portfolio-btn"
+                  >Live Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ENF PROJECT SECTION  -->
+
+        <!-- BEGIN ABOUT SECTION  -->
+        <section id="about">
+          <h2 class="about-header">A little bit about me.</h2>
+          <div class="about-content-wrapper">
+            <p>
+              After a decade long career in technical talent acquisition, I
+              decided to learn the secrets behind the buzzwords! However, the
+              more I discovered, the more curious I became. I desired to
+              understand my candidates on a more technical level to ensure I was
+              the best at my job. That's when I discovered and fell in love with
+              coding & web design!
+            </p>
+            <p>
+              As a front-end developer, I pride myself on writing clean,
+              efficient code that's easy to read and build upon. My goal with
+              every site is to provide a streamlined user experience whilst
+              allowing for scalability. Besides web development, I enjoy
+              gardening, reading and travelling!
+            </p>
+          </div>
+        </section>
+        <!-- END ABOUT SECTION  -->
+
+        <!-- BEGIN SKILL SECTION  -->
+
+        <section id="skills" class="skill-list">
+          <div class="skill-content-wrapper">
+            <h2 class="skill-header">Technical Skills</h2>
+            <section class="skill-images">
+              <div class="skill-list-item">
+                <h4>HTML5</h4>
+                <img src="img/html5-icon.png" alt="HTML icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>CSS3</h4>
+                <img src="img/css3-icon.png" alt="CSS3 icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>JSX</h4>
+                <img src="img/jsx-icon.png" alt="JSX icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>React</h4>
+                <img src="img/react-icon.png" alt="React icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>GitHub</h4>
+                <img src="img/github-icon-1.png" alt="Github icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>Flexbox</h4>
+                <img src="img/flexbox-icon.png" alt="Flexbox icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>JavaScript</h4>
+                <img src="img/js-icon1.png" alt="JavaScript icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>API</h4>
+                <img src="img/api-icon1.png" alt="API icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>DOM</h4>
+                <img src="img/dom-icon.png" alt="DOM icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>Data Flow</h4>
+                <img src="img/data-flow-icon.png" alt="Data Flow icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>Hooks</h4>
+                <img src="img/react-hooks-icon.png" alt="Hooks icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>Git</h4>
+                <img src="img/git-icon-1.png" alt="Git icon" />
+              </div>
+              <div class="skill-list-item">
+                <h4>Version Control</h4>
+                <img
+                  src="img/version-control-icon.png"
+                  alt="Version Control icon"
+                />
+              </div>
+              <div class="skill-list-item">
+                <h4>Media Queries</h4>
+                <img
+                  src="img/media-queries-icon.png"
+                  alt="Media Queries icon"
+                />
+              </div>
+            </section>
+          </div>
+        </section>
+        <!-- END SKILLS SECTION  -->
+      </main>
+      <!-- END MAIN SECTION  -->
+
+      <!-- BEGIN FOOTER SECTION  -->
+      <footer id="contact">
+        <div class="footer-content-wrapper">
+          <h2 class="contact-header">Like What You See? Get In Touch!</h2>
+
+          <form
+            action="https://formsubmit.co/sharok.d.mcdonnaugh@gmail.com"
+            method="POST"
+          >
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="enter first name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="enter last name.."
+              required
+            />
+
+            <label for="company">Organisation (Optional)</label>
+            <input
+              type="text"
+              name="company"
+              id="company"
+              placeholder="enter company name.."
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="enter email.."
+              required
+            />
+
+            <!-- change type to hidden if needed and name to message -->
+            <label for="subject">Subject</label>
+            <textarea
+              name="subject"
+              id="subject"
+              placeholder="write your message here.."
+              required
+            ></textarea>
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://sharokm.github.io/my-portfolio/pages/thankyou.html"
+            />
+
+            <button type="submit">Submit</button>
+          </form>
+
+          <!-- FORM AREA  -->
+          <!-- <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email address.."
+          />
+
+          <label for="country">Region</label>
+          <select id="country" name="country">
+            <option value="UK">United Kingdom</option>
+            <option value="EU">European Union</option>
+            <option value="EMEA">Europe, Middle East, Africa</option>
+            <option value="APAC">Asia Pacific</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write your message.."
+            style="height: 200px"
+          ></textarea
+          >
+
+          <input type="submit" value="Submit" onclick="sendMail()" />"
+
+          <button type="submit" value="Submit" onclick="sendMail()">
+            Submit
+          </button>
+        </form>
+        -->
+          <!-- FORM AREA  -->
+        </div>
+        <div class="contact-info">
+          <div id="email-header"></div>
+
+          <!-- AVATAR/ IMAGE SECTION  -->
+          <aside class="avatar">
+            <div class="avatar-img">
+              <img src="img/selfie-avatar.jpeg" alt="Avatar Image" />
+            </div>
+          </aside>
+          <!-- END AVATAR/ IMAGE SECTION  -->
+
+          <!-- BEGIN SOCMED ICON SECTION  -->
+
+          <!-- 
+          <ul id="ul-img">
+            <li class="ul-img">
+              <a
+                href="https://www.linkedin.com/in/sharok-mcdonnaugh-ba9566173/"
+                target="_blank"
+                ><img src="img/linkedin.png" alt="LinkedIn icon"/>
+              </a>
+            </li>
+            <li class="ul-img">
+              <a href="https://github.com/SharokM" target="_blank"
+                ><img src="img/github.png" alt="GitHub icon"
+              /></a>
+            </li>
+            <li class="ul-img">
+              <a href="mailto:sharok.d.mcdonnaugh@gmail.com"
+              ><img
+                id="envelope"
+                src="img/envelope.png"
+                alt="envelope icon"
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer> -->
+
+          <ul id="ul-img">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/sharok-mcdonnaugh-ba9566173/"
+                target="_blank"
+                ><img src="img/linkedin.png" alt="LinkedIn icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/SharokM" target="_blank"
+                ><img src="img/github.png" alt="GitHub icon" />
+              </a>
+            </li>
+            <li>
+              <a href="mailto:sharok.d.mcdonnaugh@gmail.com"
+                ><img
+                  id="envelope"
+                  src="img/envelope.png"
+                  alt="envelope icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- </div> -->
+      </footer>
+    </div>
+    <!-- END BEGIN SOCMED ICON SECTION  -->
+  </body>
+</html>

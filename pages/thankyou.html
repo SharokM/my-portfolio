@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Thank You Page</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      body {
+        background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+        background-size: 400% 400%;
+        animation: gradientMove 15s ease infinite;
+      }
+
+      @keyframes gradientMove {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      #bg-video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: auto; /* keep original width */
+        height: auto; /* keep original height */
+        max-width: 100vw; /* scale down if wider than viewport */
+        max-height: 100vh; /* scale down if taller than viewport */
+        transform: translate(-50%, -50%); /* center video */
+        z-index: -1;
+        background-color: black; /* fills letterbox areas */
+      }
+
+      main {
+        position: relative;
+        z-index: 1;
+      }
+
+      .main-header {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      img {
+        max-width: 300px;
+        margin: 20px 0;
+        animation: float 3s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .return-home a {
+        color: #0066cc;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+      }
+
+      .return-home a:hover {
+        text-decoration: underline;
+        color: #004999;
+      }
+    </style>
+  </head>
+  <body>
+    <video autoplay muted loop id="bg-video">
+      <source src="img/bg-video.mp4" type="video/mp4" />
+    </video>
+
+    <main>
+      <div class="header-content-wrapper">
+        <h1 class="main-header">Thank You!</h1>
+        <img
+          src="https://media1.tenor.com/m/o54T1Pb4mQ0AAAAd/hand-give-me-five-give-me-5-cat-cats-friend-friendship.gif"
+          alt="High five! ...or should I say 'paws'?"
+        />
+      </div>
+
+      <div class="return-home">
+        <a href="https://sharokm.github.io/my-portfolio/">Return Home</a>
+      </div>
+    </main>
+  </body>
+</html>
