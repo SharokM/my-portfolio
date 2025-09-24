@@ -869,7 +869,7 @@ form {
   .project-list {
     justify-content: flex-end;
     /* gap: 15%; */
-    width: 90%;
+    width: 89%;
   }
 
   .project-list-item {
