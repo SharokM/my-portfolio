@@ -447,6 +447,7 @@ input:checked + .slider:before {
   padding: 20px;
   color: wheat;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .about-header {
@@ -740,7 +741,7 @@ form {
     flex-flow: row wrap;
     justify-content: center;
     align-items: baseline;
-    gap: 18%;
+    gap: 10%;
     width: -webkit-fill-available;
     padding-bottom: 20px;
   }
@@ -750,8 +751,12 @@ form {
   }
 
   .project-list-item {
-    width: 240px;
+    width: 260px;
     margin: 0 18px;
+  }
+
+  .project-list-item figure img {
+    width: 95%;
   }
 
   .project-list img {
@@ -794,14 +799,10 @@ form {
   }
 
   .skill-images {
-    display: flex;
-    align-items: end;
     justify-content: center;
     flex-flow: wrap;
-    /* flex-wrap: wrap; */
-    width: 90%;
-    /* margin-left: 200px; */
-    gap: 21%;
+    flex-wrap: wrap;
+    gap: 15%;
   }
 
   .skill-list-item img {
@@ -872,7 +873,7 @@ form {
   }
 
   .project-list-item {
-    width: 200px;
+    /* width: 200px; */
     margin: 0;
   }
 
