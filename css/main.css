@@ -489,14 +489,14 @@ input:checked + .slider:before {
 
 .project-list-item figure {
   width: 300px;
-  height: 200px;
+  /* height: 200px; */
   margin: 0 auto 10px;
   overflow: hidden;
 }
 
 .project-list-item figure img {
   width: 97%;
-  height: 97%;
+  /* height: 97%; */
   object-fit: contain;
   display: block;
 }
@@ -806,8 +806,8 @@ form {
   }
 
   .skill-list-item img {
-    object-fit: contain;
-    width: 100%;
+    /* object-fit: contain; */
+    width: 60%;
     /* margin-bottom: 20px; */
   }
 
@@ -901,8 +901,8 @@ form {
   }
 
   .skill-list-item img {
-    width: 100%;
-    object-fit: contain;
+    /* width: 100%; */
+    /* object-fit: contain; */
   }
 
   .skill-content-wrapper {
