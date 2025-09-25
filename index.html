@@ -101,19 +101,23 @@
 
             <div class="switch-container">
               <!-- <p>Dark</p> -->
-              <label class="switch">
-                <button
-                  id="toggle"
-                  class="ball dark-mode"
-                  aria-label="Toggle dark mode"
-                >
+              <input
+                name="toggle"
+                id="toggle-input"
+                aria-label="Toggle dark mode"
+                type="checkbox"
+              />
+              <label class="switch" for="toggle-input">
+                <!-- <button class="ball dark-mode" aria-hidden="true"> -->
+                <span class="ball dark-mode">
                   <span class="icon moon">🌙</span>
                   <span class="icon sun">☀️</span>
+                </span>
 
-                  <!-- <span class="visually-hidden">L/D</span> -->
-                </button>
+                <!-- <span class="visually-hidden">L/D</span> -->
+                <!-- </button> -->
               </label>
-              <input name="toggle" type="checkbox" />
+
               <!-- <p>Light</p> -->
             </div>
           </nav>
