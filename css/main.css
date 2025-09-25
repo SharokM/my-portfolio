@@ -104,6 +104,10 @@ a {
   color: wheat;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 .dark-palette a {
   color: black;
 }
@@ -118,11 +122,12 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-bottom: 15px;
 }
 
 h3 {
   padding-top: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 h4 {

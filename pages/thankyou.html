@@ -13,7 +13,6 @@
       }
 
       body {
-        background: linear-gradient(-45deg, #18090a, #f4f2f2, #2a1102, #fbc2eb);
         background-size: 400% 400%;
         animation: gradientMove 15s ease infinite;
       }
@@ -32,15 +31,12 @@
 
       #bg-video {
         position: fixed;
-        top: 50%;
-        left: 50%;
-        width: auto;
-        height: auto;
-        max-width: 100vw;
-        max-height: 100vh;
-        transform: translate(-50%, -50%);
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
         z-index: -1;
-        /* background-color: rgb(197, 192, 192); */
       }
 
       main {
@@ -50,7 +46,8 @@
 
       .main-header {
         font-size: 3rem;
-        color: #9c3d02;
+        font-family: cursive;
+        color: #415b1e;
         margin-top: 150px;
         margin-bottom: 20px;
       }
@@ -78,7 +75,7 @@
         color: #0066cc;
         text-decoration: none;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.9rem;
         transition: all 0.3s ease;
       }
 
@@ -90,12 +87,12 @@
   </head>
   <body>
     <video autoplay muted loop id="bg-video">
-      <source src="img/bg-video.mp4" type="video/mp4" />
+      <source src="../img/bg-video.mp4" type="video/mp4" />
     </video>
 
     <main>
       <div class="header-content-wrapper">
-        <h1 class="main-header">Thank You!</h1>
+        <h1 class="main-header">Message Submitted!</h1>
         <img
           src="https://media1.tenor.com/m/o54T1Pb4mQ0AAAAd/hand-give-me-five-give-me-5-cat-cats-friend-friendship.gif"
           alt="High five! ...or should I say 'paws'?"
