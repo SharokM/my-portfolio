@@ -774,7 +774,7 @@ form {
   h4 {
     padding-bottom: 20px;
     font-size: 1.5em;
-    margin-bottom: 8px;
+    margin-bottom: 0;
   }
 
   .skill-content-wrapper {
