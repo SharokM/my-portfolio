@@ -14,19 +14,6 @@ const highlightSpan = document.querySelector(".highlightSpan");
 const spans = document.querySelectorAll("span");
 
 
-// FORM AREA 
-// function sendMail() {
-//   let params = {
-//     fname : document.getElementById('fname').value,
-//     lname : document.getElementById("lname").value,
-//     email : document.getElementById("email").value,
-//     country : document.getElementById("country").value,
-//     subject : document.getElementById("subject").value,
-//   }
-//   emailjs.send("service_9zdimmo", "template_tlfbplq", params).then(alert("Message Sent!"));
-// }
-
-// SPAN HIGHLIGHT 
 // Select all span elements
 spans.forEach(span => {
   // Add class on hover
