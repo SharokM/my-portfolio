@@ -765,6 +765,9 @@ form {
   .about-content-wrapper {
     display: inline-flex;
     margin: auto;
+    width: 80%;
+    text-align: left;
+    line-height: 1.75em;
   }
 
   .project-list {
@@ -807,7 +810,7 @@ form {
     display: flex;
     align-items: baseline;
     flex-flow: wrap;
-    width: 87%;
+    width: 80%;
     margin: auto;
   }
 
