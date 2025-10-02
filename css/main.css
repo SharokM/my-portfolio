@@ -747,6 +747,7 @@ form {
 
   #ul-img {
     gap: 45px;
+    padding-top: 25px;
   }
 }
 
@@ -825,6 +826,7 @@ form {
     margin-left: 79px;
     margin: auto;
     padding-bottom: 15px;
+    padding-top: 35px;
   }
 }
 
