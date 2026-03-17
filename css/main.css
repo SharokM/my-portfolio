@@ -396,10 +396,9 @@ input:checked + .slider:before {
 /* ABOUT SECTION SECTION  */
 
 #about {
-  background-color: #152a3e;
+  background-color: saddlebrown;
   padding: 20px;
   color: wheat;
-  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -461,13 +460,13 @@ input:checked + .slider:before {
 }
 
 .skill-content-wrapper {
-  background-color: red;
+  background-color: #eee4f0;
   padding: 1px;
   margin-bottom: 10px;
 }
 
 #skills {
-  background-color: red;
+  background-color: rgb(5, 4, 4);
   padding: 1px;
   margin: 3px;
 }
@@ -478,7 +477,7 @@ input:checked + .slider:before {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .skill-images {
