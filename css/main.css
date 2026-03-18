@@ -105,7 +105,7 @@ img {
 .content-wrapper {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   background-color: black;
 }
 
@@ -397,7 +397,8 @@ input:checked + .slider:before {
 
 #about {
   background-color: saddlebrown;
-  padding: 20px;
+  padding: 1px;
+  margin: 5px;
   color: wheat;
   text-align: center;
 }
@@ -466,9 +467,11 @@ input:checked + .slider:before {
 }
 
 #skills {
+  /* background-color: rgb(5, 4, 4);
+  padding: 1px;
+  margin: 3px; */
   background-color: rgb(5, 4, 4);
   padding: 1px;
-  margin: 3px;
 }
 
 .skill-list-item {
