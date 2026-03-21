@@ -122,8 +122,9 @@ img {
 .dark-palette #projects {
   background-color: lightgoldenrodyellow;
   color: black;
-  margin: 8px;
-  padding: 12px;
+  margin: 0px;
+  padding: 20px;
+  margin-bottom: 5px;
 }
 
 .dark-palette .header {
@@ -397,8 +398,8 @@ input:checked + .slider:before {
 
 #about {
   background-color: saddlebrown;
-  padding: 1px;
-  margin: 5px;
+  padding: 3px;
+  margin: 10px;
   color: wheat;
   text-align: center;
 }
@@ -653,7 +654,7 @@ form {
     flex-flow: row wrap;
     justify-content: center;
     align-items: baseline;
-    gap: 10%;
+    gap: 8%;
     width: -webkit-fill-available;
     padding-bottom: 20px;
   }
@@ -685,7 +686,7 @@ form {
 
   h4 {
     padding-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 0;
   }
 
@@ -700,11 +701,12 @@ form {
   }
 
   .skill-list-item {
-    width: 15%;
+    width: 12%;
     display: flex;
     gap: inherit;
+    justify-content: center;
     flex-flow: wrap;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .skill-images {
@@ -769,8 +771,8 @@ form {
   .about-content-wrapper {
     display: inline-flex;
     margin: auto;
-    width: 80%;
-    text-align: left;
+    width: 66%;
+    /* text-align: left; */
     line-height: 1.75em;
   }
 
@@ -803,7 +805,17 @@ form {
   }
 
   .skill-content-wrapper {
-    margin: 25px;
+    margin: 15px;
+  }
+
+  .skill-list-item {
+    /* width: 11%; */
+    display: flex;
+    gap: inherit;
+    flex-flow: wrap;
+    /* margin: auto; */
+    /* align-items: baseline; */
+    justify-content: center;
   }
 
   .footer-content-wrapper {
@@ -814,7 +826,7 @@ form {
     display: flex;
     align-items: baseline;
     flex-flow: wrap;
-    width: 80%;
+    width: 75%;
     margin: auto;
   }
 
