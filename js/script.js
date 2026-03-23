@@ -11,7 +11,7 @@ const darkModeButton = document.querySelector(".dark-mode")
 const sliderToggle = document.querySelector(".slider");
 const lightModeButton = document.querySelector(".light-mode");
 const highlightSpan = document.querySelector(".highlightSpan");
-const spans = document.querySelectorAll("span");
+const spans = document.querySelectorAll(".project-list span");
 
 
 // Select all span elements
@@ -46,7 +46,7 @@ window.onclick = function(event) {
 }
 
 // SWITCH BUTTON 
-darkModeButton.addEventListener("click", function () {
+switchButton.addEventListener("click", function () {
     if (body.classList.contains("dark-palette")) {
       body.classList.remove("dark-palette");
     } else {
