@@ -204,6 +204,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
+  right: 0;
   background-color: lightgoldenrodyellow;
   min-width: 86px;
   max-height: 145px;
