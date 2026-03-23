@@ -203,7 +203,7 @@ header {
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: lightgoldenrodyellow;
   min-width: 86px;
   max-height: 145px;
