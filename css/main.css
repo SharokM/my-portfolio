@@ -198,7 +198,7 @@ header {
 /* DROPDOWN SECTION  */
 .dropdownbutton:hover,
 .dropdownbutton:focus {
-  background-color: #442f28;
+  background-color: #d76c49e8;
 }
 
 .dropdown-content {
@@ -693,7 +693,7 @@ form {
   .skill-content-wrapper {
     padding: 20px;
     color: wheat;
-    background-color: red;
+    background-color: #81b39db8;
   }
 
   .skill-header {
