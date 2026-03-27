@@ -431,6 +431,7 @@ input:checked + .slider:before {
   padding: 7px;
   margin: 5px 1px 10px 0px;
   border-radius: 30px;
+  font-size: smaller;
   width: fit-content;
 }
 
