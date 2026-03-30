@@ -470,9 +470,6 @@ input:checked + .slider:before {
 }
 
 #skills {
-  /* background-color: rgb(5, 4, 4);
-  padding: 1px;
-  margin: 3px; */
   background-color: rgb(5, 4, 4);
   padding: 1px;
 }
@@ -811,12 +808,9 @@ form {
   }
 
   .skill-list-item {
-    /* width: 11%; */
     display: flex;
     gap: inherit;
     flex-flow: wrap;
-    /* margin: auto; */
-    /* align-items: baseline; */
     justify-content: center;
   }
 
@@ -860,7 +854,6 @@ form {
   *::after {
     background: #fff !important;
     color: #000 !important;
-    /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
