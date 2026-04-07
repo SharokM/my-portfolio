@@ -68,7 +68,8 @@ a {
 }
 
 p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 .dark-palette a {
@@ -397,31 +398,33 @@ input:checked + .slider:before {
 
 /* ABOUT SECTION SECTION  */
 
+#about,
+#projects,
+#skills {
+  padding: 60px 20px;
+  margin: 0;
+}
+
 #about {
   background-color: saddlebrown;
-  padding: 3px;
-  margin: 10px;
   color: wheat;
   text-align: center;
 }
 
-.about-header {
-  padding: 40px 5px 10px 0px;
+.about-header,
+.project-header,
+.skill-header {
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 /* END ABOUT SECTION  */
 
 /* BEGIN PROJECT SECTION  */
 
-.project-header {
-  padding: 40px 5px 10px 0px;
-}
-
 #projects {
   background-color: black;
-  padding: 20px;
   color: wheat;
-  margin: 0;
 }
 
 .project-list span {
@@ -459,19 +462,16 @@ input:checked + .slider:before {
 
 /* BEGIN SKILLS SECTION  */
 
-.skill-header {
-  padding: 40px 10px 2px 10px;
-}
-
 .skill-content-wrapper {
   background-color: #eee4f0;
-  padding: 1px;
+  border: 6px ridge black;
+  padding: 30px 15px;
   margin: 0px 2px 5px 2px;
 }
 
 #skills {
-  background-color: rgb(5, 4, 4);
-  padding: 1px;
+  background-color: saddlebrown;
+  padding-bottom: 30px;
 }
 
 .skill-list-item {
@@ -487,7 +487,7 @@ input:checked + .slider:before {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 20px;
   flex-flow: column;
   align-items: center;
 }
@@ -505,7 +505,8 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #f7e8e8;
-  margin: 1px 5px 5px 5px;
+  margin: 0;
+  padding: 50px 20px;
 }
 
 footer .contact-header {
@@ -616,8 +617,9 @@ form {
 
   .about-content-wrapper {
     display: flex;
-    gap: 6%;
-    margin: 30px 5px 5px 20px;
+    gap: 40px;
+    margin: 40px auto 0;
+    padding-bottom: 30px;
     line-height: 1.7em;
   }
 
@@ -639,7 +641,7 @@ form {
   }
 
   #about {
-    background-color: #152a3e;
+    background-color: saddlebrown;
     padding: 5px 30px 30px;
     color: wheat;
     margin: 1px;
@@ -653,7 +655,7 @@ form {
     flex-flow: row wrap;
     justify-content: center;
     align-items: baseline;
-    gap: 8%;
+    gap: 40px;
     width: -webkit-fill-available;
     padding-bottom: 20px;
   }
@@ -664,7 +666,8 @@ form {
 
   .project-list-item {
     width: 260px;
-    margin: 0 18px;
+    margin-bottom: 40px;
+    padding: 15px;
   }
 
   .project-list-item figure img {
@@ -776,8 +779,8 @@ form {
   }
 
   .project-list {
-    justify-content: flex-end;
-    width: 89%;
+    justify-content: center;
+    width: 100%;
   }
 
   .project-list-item {
@@ -792,7 +795,6 @@ form {
     width: 300px;
   }
 
-  /* PORTFOLIO VISIT BUTTON  */
   .portfolio-btn {
     display: inline-block;
     font-size: 1rem;
@@ -804,7 +806,8 @@ form {
   }
 
   .skill-content-wrapper {
-    margin: 15px;
+    margin: 40px auto;
+    padding: 40px;
   }
 
   .skill-list-item {
