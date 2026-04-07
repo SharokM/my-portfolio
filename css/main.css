@@ -191,7 +191,7 @@ header {
 .header-content-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: anchor-center;
   flex-flow: row;
   width: -webkit-fill-available;
 }
