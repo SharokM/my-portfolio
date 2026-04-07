@@ -448,7 +448,8 @@ input:checked + .slider:before {
 
 .project-list-item figure {
   width: 300px;
-  margin: 0 auto 10px;
+  text-align: center;
+  margin: 0 auto;
   overflow: hidden;
 }
 
