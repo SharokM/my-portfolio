@@ -788,6 +788,7 @@ form {
 
   .project-list-item {
     margin: 0;
+    width: 320px;
   }
 
   .project-list img {
